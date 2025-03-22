@@ -3637,9 +3637,6 @@ view.ModelSidebar = class extends view.ObjectSidebar {
             if (graph.type) {
                 this.addProperty('type', graph.type);
             }
-            if (graph.tags) {
-                this.addProperty('tags', graph.tags);
-            }
             if (graph.description) {
                 this.addProperty('description', graph.description);
             }
