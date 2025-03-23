@@ -1,0 +1,6 @@
+{
+  "watch": ["source", "package.js", "package.json"],
+  "ext": "js,html,css,json",
+  "exec": "npm start",
+  "delay": "250"
+}

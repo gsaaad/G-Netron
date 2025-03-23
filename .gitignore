@@ -5,3 +5,5 @@ node_modules/*
 third_party/*
 yarn.lock
 *.pyc
+
+g-netron
