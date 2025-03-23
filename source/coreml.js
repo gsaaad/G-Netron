@@ -226,7 +226,7 @@ coreml.Graph = class {
 
     constructor(context) {
         this.name = context.name || '';
-        this.type = context.type;
+        this.description = context.type;
         this.groups = context.groups;
         for (const value of context.values.values()) {
             const name = value.name;
